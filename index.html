@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Stopwatch</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Stopwatch Card -->
+        <div class="stopwatch">
+
+            <!-- Heading -->
+            <h1>STOPWATCH</h1>
+
+            <!-- Timer Display -->
+            <div class="display">
+
+                <span id="hours">00</span> :
+                <span id="minutes">00</span> :
+                <span id="seconds">00</span> :
+                <span id="milliseconds">00</span>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+
+                <button id="start">Start</button>
+
+                <button id="pause">Pause</button>
+
+                <button id="reset">Reset</button>
+
+                <button id="lap">Lap</button>
+
+            </div>
+
+            <!-- Lap Section -->
+            <div class="laps">
+
+                <h2>Lap Records</h2>
+
+                <ul id="lapList">
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
